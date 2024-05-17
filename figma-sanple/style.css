@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap');
+html,body{
+font-family: "Noto Serif JP", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+}
+
+
+html,body,div{
+    padding:0;
+    margin:0;
+}
+
+
+#menu {
+    background: #cccccc;
+    position: sticky;
+    top: 0;
+
+}
+#menu div{
+    display: inline-block;
+    width: 5em;
+    text-align: center;
+    padding:0.4em 0;
+}
+
+#logo{
+    background: #777;
+    color: #fff;
+}
+
+#headImage{
+    height:300px;
+    text-align: center;
+    background-image: url(./img/headImage.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#headImage > div{
+    background: rgba(255,255,255,0.4);
+    height:100%;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 160%;
+}
+
+.container h2{
+    text-align: center;
+}
+
+#footer{
+    background:#444;
+    text-align:center;
+    padding: 70px 0;
+    color:#fff;
+}
+
+#container-3{
+    background:#8d8d8d;
+    text-align:center;
+    padding: 100px 0;
+    color:#444;
+}
+
+#nyugaku-text{
+    font-size: 130%;
+    font-weight: bold;
+}
+
+#nyugaku-button{
+    display:inline-block;
+    border-radius: 4px;
+    background: #3360aa;
+    font-size: 110%;
+    font-weight: bold;
+    border:none;
+    padding:0.51em 2em;
+    margin-top:1em;
+    color:#eef;
+    text-decoration: none;
+}
+
+.container{
+    padding:5em 1em;
+}
+
+.image-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 0 40px 0;
+}
+
+.image-list img{
+    width: 260px;
+    margin-bottom: 1rem;
+}
